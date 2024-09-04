@@ -1,0 +1,66 @@
+#editor {
+    height: 400px;
+    background-color: white;
+}
+
+#popup-menu {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+#gpt-prompt {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.selected-highlight {
+    background-color: orange;
+}
+
+.edited-highlight {
+    background-color: yellow;
+}
+
+.floating-buttons {
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    z-index: 1000;
+}
+
+.floating-buttons button {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-buttons .approve {
+    background-color: #4CAF50;
+}
+
+.floating-buttons .redo {
+    background-color: #FFC107;
+}
+
+.floating-buttons .cancel {
+    background-color: #F44336;
+}
+
+.ql-container {
+    font-size: 16px;
+}
+
+.ql-editor {
+    min-height: 300px;
+}
